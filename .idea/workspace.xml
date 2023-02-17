@@ -4,20 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc2fb089-c6a4-47db-a6df-3497934bc360" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    <list default="true" id="bc2fb089-c6a4-47db-a6df-3497934bc360" name="变更" comment="init">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/watchdog/essentialspro/api/EssentialsPro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/watchdog/essentialspro/api/EssentialsProProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/watchdog/essentialspro/api/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/loader-utils/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/loader-utils/src/main/java/cn/watchdog/essentialspro/common/loader/JarInJarClassLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/loader-utils/src/main/java/cn/watchdog/essentialspro/common/loader/LoaderBootstrap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/loader-utils/src/main/java/cn/watchdog/essentialspro/common/loader/LoadingException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/watchdog/essentialspro/common/api/ApiRegistrationUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/watchdog/essentialspro/common/api/EssentialsProApiProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/watchdog/essentialspro/common/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/watchdog/essentialspro/common/plugin/EssentialsProPlugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/watchdog/essentialspro/common/plugin/bootstrap/BootstrappedWithLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/watchdog/essentialspro/common/plugin/bootstrap/EssentialsProBootstrap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/watchdog/essentialspro/common/plugin/logging/PluginLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +40,64 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="EssentialsPro" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="EssentialsPro" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="EssentialsPro" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2Lr97G0vpMnOn175tdpHu4eW7wb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -45,19 +112,58 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "E:/Java/EssentialsPro",
+    "last_opened_file_path": "E:/Java/EssentialsPro/common/src/main/java/cn/watchdog/essentialspro/common/plugin",
     "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Java\EssentialsPro\common\src\main\java\cn\watchdog\essentialspro\common\plugin" />
+      <recent name="E:\Java\EssentialsPro\common\src\main\java\cn\watchdog\essentialspro\common\api" />
+      <recent name="E:\Java\EssentialsPro\common\loader-utils\src\main\java\cn\watchdog\essentialspro\common\loader" />
       <recent name="E:\Java\EssentialsPro" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.watchdog.essentialspro.common.plugin.bootstrap" />
+      <recent name="cn.watchdog.essentialspro.common.plugin" />
+      <recent name="cn.watchdog.essentialspro.api" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="EssentialsPro [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.EssentialsPro [build]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -67,8 +173,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676618168542</updated>
-      <workItem from="1676618174577" duration="4186000" />
+      <workItem from="1676618174577" duration="6954000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1676627293768</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676627293768</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,5 +201,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
 </project>

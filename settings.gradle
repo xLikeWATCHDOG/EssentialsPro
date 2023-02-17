@@ -1,1 +1,6 @@
 rootProject.name = 'EssentialsPro'
+
+include('api',
+        'common',
+        'common:loader-utils')
+
